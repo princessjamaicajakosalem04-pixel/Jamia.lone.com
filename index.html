@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About JAMÎA.lone | Filipino Independent Artist</title>
+
+    <meta name="description" content="Discover JAMÎA.lone, an independent Filipino artist and songwriter blending pop, R&B, and alternative influences. Learn the story behind the music and ELLIOT.">
+
+    <meta name="author" content="JAMÎA.lone">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0b0b0d">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="About JAMÎA.lone">
+    <meta property="og:description" content="Built, Not Born. Discover the artist, the story, and the music.">
+    <meta property="og:url" content="https://jamialoneinterviews.netlify.app/">
+
+    <link rel="canonical"
+          href="https://jamialoneinterviews.netlify.app/">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0b0b0d;
+            color: #f4f0eb;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.8;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 8%;
+            border-bottom: 1px solid #29292d;
+        }
+
+        .logo {
+            font-size: 21px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: #a52a35;
+        }
+
+        .nav-link {
+            color: #c5c0bc;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+
+        .hero {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 100px 10%;
+            background:
+                radial-gradient(
+                    ellipse at 80% 20%,
+                    #35151b 0%,
+                    #171013 35%,
+                    #0b0b0d 75%
+                );
+        }
+
+        .eyebrow {
+            color: #c76a73;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 11px;
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            font-size: clamp(42px, 9vw, 90px);
+            line-height: 1.1;
+            letter-spacing: -3px;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            color: #d1cbc7;
+            max-width: 580px;
+            font-size: 17px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 13px 25px;
+            border: 1px solid #a52a35;
+            color: #ffffff;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #a52a35;
+        }
+
+        .section {
+            padding: 85px 10%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-label {
+            color: #c76a73;
+            font-size: 11px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-size: clamp(28px, 5vw, 44px);
+            line-height: 1.25;
+            margin-bottom: 28px;
+        }
+
+        .section p {
+            color: #c8c3bf;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+
+        .divider {
+            height: 1px;
+            background: #29292d;
+            margin: 0 10%;
+        }
+
+        .philosophy {
+            text-align: center;
+            background: #141214;
+            padding: 85px 8%;
+        }
+
+        .philosophy h2 {
+            font-size: clamp(34px, 7vw, 65px);
+            letter-spacing: 3px;
+            margin-bottom: 18px;
+        }
+
+        .philosophy h2 span {
+            color: #b53b46;
+        }
+
+        .philosophy p {
+            color: #c8c3bf;
+            max-width: 620px;
+            margin: auto;
+        }
+
+        .music-card {
+            border: 1px solid #343035;
+            padding: 30px;
+            background: #111012;
+        }
+
+        .music-card h3 {
+            font-size: 27px;
+            letter-spacing: 3px;
+            margin-bottom: 12px;
+        }
+
+        .music-card p {
+            margin-bottom: 10px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        .social-links a {
+            border: 1px solid #343035;
+            padding: 10px 15px;
+            color: #ded8d4;
+            font-size: 12px;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            border-color: #b53b46;
+            color: #ffffff;
+        }
+
+        footer {
+            border-top: 1px solid #29292d;
+            text-align: center;
+            padding: 30px 15px;
+            color: #888187;
+            font-size: 12px;
+        }
+
+        footer strong {
+            color: #f4f0eb;
+        }
+
+        @media (max-width: 600px) {
+            .navigation {
+                padding: 20px 6%;
+            }
+
+            .hero {
+                min-height: 65vh;
+                padding: 75px 7%;
+            }
+
+            .section {
+                padding: 65px 7%;
+            }
+
+            .divider {
+                margin: 0 7%;
+            }
+
+            .philosophy {
+                padding: 65px 7%;
+            }
+
+            .logo {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="navigation">
+        <a href="#home" class="logo">JAMÎA<span>.</span>lone</a>
+        <a href="#about" class="nav-link">ABOUT THE ARTIST</a>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="eyebrow">Independent Artist & Songwriter</div>
+
+            <h1>Meet<br>JAMÎA.lone.</h1>
+
+            <p>
+                An independent Filipino artist building a world through
+                music, honest storytelling, and the courage to become
+                something more.
+            </p>
+
+            <a href="#about" class="button">Discover My Story</a>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-label">01 / The Artist</div>
+
+            <h2>More Than Just Music.</h2>
+
+            <p>
+                JAMÎA.lone is an independent Filipino artist and songwriter
+                based in Antipolo, Philippines. Blending pop, R&B, and
+                alternative influences, the artist explores personal
+                experiences through raw storytelling and emotionally
+                driven music.
+            </p>
+
+            <p>
+                The music reflects ambition, self-discovery, late-night
+                overthinking, and the journey of transforming difficult
+                experiences into strength. Each release offers another
+                glimpse into an evolving artistic identity.
+            </p>
+
+            <p>
+                Beyond the music, JAMÎA.lone hopes to create work that
+                helps listeners feel seen, understood, and encouraged
+                to pursue their own dreams.
+            </p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="philosophy">
+            <div class="section-label">02 / The Philosophy</div>
+
+            <h2>BUILT, <span>NOT BORN.</span></h2>
+
+            <p>
+                An identity is built through persistence, growth,
+                challenges, and the decisions made along the way.
+                This philosophy represents the commitment to keep
+                learning, creating, and becoming — one step at a time.
+            </p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section" id="music">
+            <div class="section-label">03 / The Music</div>
+
+            <h2>Every Song Has a Story.</h2>
+
+            <div class="music-card">
+                <div class="section-label">Debut Single</div>
+
+                <h3>ELLIOT</h3>
+
+                <p>
+                    ELLIOT explores admiration, inspiration, and the
+                    realization that someone else's journey can motivate
+                    you to pursue your own dreams.
+                </p>
+
+                <p>
+                    It introduces the storytelling behind JAMÎA.lone:
+                    turning personal feelings into a reason to keep
+                    moving forward.
+                </p>
+
+                <a
+                    href="https://music.apple.com/us/album/elliot-single/6812823051?ls=1"
+                    class="button"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Listen to ELLIOT
+                </a>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section" id="connect">
+            <div class="section-label">04 / Connect</div>
+
+            <h2>Follow the Journey.</h2>
+
+            <p>
+                Explore the music, discover new releases, and follow
+                the continuing journey of JAMÎA.lone through the
+                official platforms.
+            </p>
+
+            <div class="social-links">
+                <a href="https://open.spotify.com/artist/3QgMey3pC9Xadd9kUcxe7k"
+                   target="_blank" rel="noopener noreferrer">
+                    SPOTIFY
+                </a>
+
+                <a href="https://youtu.be/jXOsvVZXT-s"
+                   target="_blank" rel="noopener noreferrer">
+                    YOUTUBE
+                </a>
+
+                <a href="https://music.apple.com/us/album/elliot-single/6812823051?ls=1"
+                   target="_blank" rel="noopener noreferrer">
+                    APPLE MUSIC
+                </a>
+
+                <a href="https://www.deezer.com/album/1080979172"
+                   target="_blank" rel="noopener noreferrer">
+                    DEEZER
+                </a>
+
+                <a href="https://jamialoneinterviews.netlify.app/"
+                   target="_blank" rel="noopener noreferrer">
+                    INTERVIEWS
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            <strong>JAMÎA.lone</strong> &copy; 2026.
+            All rights reserved.
+        </p>
+        <p>BUILT, NOT BORN.</p>
+    </footer>
+
+</body>
+</html>
